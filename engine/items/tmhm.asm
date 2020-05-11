@@ -468,19 +468,25 @@ TMHM_PlaySFX_ReadText2:
 	ret
 
 ConsumeTM:
+	; puts... some value into c??
 	call ConvertCurItemIntoCurTMHM
-	ld a, [wTempTMHM]
-	dec a
-	ld hl, wTMsHMs
-	ld b, 0
-	ld c, a
-	add hl, bc
-	ld a, [hl]
-	and a
-	ret z
-	dec a
-	ld [hl], a
-	ret nz
+	ld a, [wTempTMHM] ; a = *wTempTMHM
+	dec a ; a -= 1
+	ld hl, wTMsHMs; hl = wTMsHM
+
+	; c <- a = [wTempTMHM] - 1 -- find wTMsHM[tm_index]
+	ld b, 0 
+	ld c, a 
+	add hl, bc ; hl += a
+
+	ld a, [hl] ; a = wTMsHM[tm_index]
+	and a ; is a 0?
+	ret z ; return if a == 0
+	; dec a ; a -= 1  - commented out for infinite TMs
+	; ld [hl], a ; *hl = a - commented out for infinite TMs
+	; code up until the ret should be dead
+	ret nz ; a == 0? return, it's done
+	; adjust the scroll position
 	ld a, [wTMHMPocketScrollPosition]
 	and a
 	ret z

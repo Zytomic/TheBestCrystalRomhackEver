@@ -328,7 +328,7 @@ PokeBallEffect:
 	and 1 << FRZ | SLP
 	ld c, 10
 	jr nz, .addstatus
-	; ld a, [wEnemyMonStatus]
+	ld a, [wEnemyMonStatus] ; az: uncommented
 	and a
 	ld c, 5
 	jr nz, .addstatus
@@ -346,7 +346,7 @@ PokeBallEffect:
 	ld d, a
 	push de
 	ld a, [wBattleMonItem]
-	; ld b, a
+	ld b, a ; az: uncommented
 	farcall GetItemHeldEffect
 	ld a, b
 	cp HELD_CATCH_CHANCE
