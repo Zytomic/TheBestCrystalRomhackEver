@@ -16,7 +16,6 @@ Tilesets::
 	tileset TilesetJohto
 	tileset TilesetJohtoModern
 	tileset TilesetKanto
-	tileset TilesetBattleTowerOutside
 	tileset TilesetHouse
 	tileset TilesetPlayersHouse
 	tileset TilesetPokecenter
@@ -26,14 +25,12 @@ Tilesets::
 	tileset TilesetFacility
 	tileset TilesetMart
 	tileset TilesetMansion
-	tileset TilesetGameCorner
 	tileset TilesetEliteFourRoom
 	tileset TilesetTraditionalHouse
 	tileset TilesetTrainStation
 	tileset TilesetChampionsRoom
 	tileset TilesetLighthouse
 	tileset TilesetPlayersRoom
-	tileset TilesetBattleTowerInside
 	tileset TilesetTower
 	tileset TilesetCave
 	tileset TilesetPark

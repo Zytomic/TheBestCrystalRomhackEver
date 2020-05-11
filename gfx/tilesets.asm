@@ -127,14 +127,6 @@ INCBIN "data/tilesets/mart_metatiles.bin"
 TilesetMartColl::
 INCLUDE "data/tilesets/mart_collision.asm"
 
-TilesetGameCornerGFX::
-INCBIN "gfx/tilesets/game_corner.2bpp.lz"
-
-TilesetGameCornerMeta::
-INCBIN "data/tilesets/game_corner_metatiles.bin"
-
-TilesetGameCornerColl::
-INCLUDE "data/tilesets/game_corner_collision.asm"
 
 TilesetTrainStationGFX::
 INCBIN "gfx/tilesets/train_station.2bpp.lz"
@@ -192,15 +184,6 @@ INCBIN "gfx/tilesets/dark_cave.2bpp.lz"
 
 
 SECTION "Tileset Data 5", ROMX
-
-TilesetBattleTowerInsideGFX::
-INCBIN "gfx/tilesets/battle_tower_inside.2bpp.lz"
-
-TilesetBattleTowerInsideMeta::
-INCBIN "data/tilesets/battle_tower_inside_metatiles.bin"
-
-TilesetBattleTowerInsideColl::
-INCLUDE "data/tilesets/battle_tower_inside_collision.asm"
 
 TilesetGateGFX::
 INCBIN "gfx/tilesets/gate.2bpp.lz"
@@ -274,12 +257,6 @@ INCBIN "data/tilesets/facility_metatiles.bin"
 
 TilesetFacilityColl::
 INCLUDE "data/tilesets/facility_collision.asm"
-
-TilesetBattleTowerOutsideMeta::
-INCBIN "data/tilesets/battle_tower_outside_metatiles.bin"
-
-TilesetBattleTowerOutsideColl::
-INCLUDE "data/tilesets/battle_tower_outside_collision.asm"
 
 TilesetBetaWordRoomMeta::
 INCBIN "data/tilesets/beta_word_room_metatiles.bin"
