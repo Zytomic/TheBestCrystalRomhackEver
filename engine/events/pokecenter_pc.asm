@@ -41,22 +41,22 @@ PokemonCenterPC:
 
 PCPC_PLAYERS_PC   EQU 0
 PCPC_BILLS_PC     EQU 1
-PCPC_OAKS_PC      EQU 2
-PCPC_HALL_OF_FAME EQU 3
-PCPC_TURN_OFF     EQU 4
+; PCPC_OAKS_PC      EQU 2
+; PCPC_HALL_OF_FAME EQU 3
+PCPC_TURN_OFF     EQU 2
 
 .JumpTable:
 ; entries correspond to PCPC_* constants
 	dw PlayersPC,    .String_PlayersPC
 	dw BillsPC,      .String_BillsPC
-	dw OaksPC,       .String_OaksPC
-	dw HallOfFamePC, .String_HallOfFame
+	; dw OaksPC,       .String_OaksPC
+	; dw HallOfFamePC, .String_HallOfFame
 	dw TurnOffPC,    .String_TurnOff
 
 .String_PlayersPC:  db "<PLAYER>'s PC@"
 .String_BillsPC:    db "BILL's PC@"
-.String_OaksPC:     db "PROF.OAK's PC@"
-.String_HallOfFame: db "HALL OF FAME@"
+; .String_OaksPC:     db "PROF.OAK's PC@"
+; .String_HallOfFame: db "HALL OF FAME@"
 .String_TurnOff:    db "TURN OFF@"
 
 .WhichPC:
@@ -71,7 +71,7 @@ PCPC_TURN_OFF     EQU 4
 	db 4
 	db PCPC_BILLS_PC
 	db PCPC_PLAYERS_PC
-	db PCPC_OAKS_PC
+	; db PCPC_OAKS_PC
 	db PCPC_TURN_OFF
 	db -1 ; end
 
@@ -79,8 +79,8 @@ PCPC_TURN_OFF     EQU 4
 	db 5
 	db PCPC_BILLS_PC
 	db PCPC_PLAYERS_PC
-	db PCPC_OAKS_PC
-	db PCPC_HALL_OF_FAME
+	; db PCPC_OAKS_PC
+	; db PCPC_HALL_OF_FAME
 	db PCPC_TURN_OFF
 	db -1 ; end
 

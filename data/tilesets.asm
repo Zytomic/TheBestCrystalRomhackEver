@@ -12,11 +12,13 @@ ENDM
 
 Tilesets::
 ; entries correspond to TILESET_* constants
+; az: check these match with tileset_constants.asm
 	tileset Tileset0
 	tileset TilesetJohto
 	tileset TilesetJohtoModern
 	tileset TilesetKanto
 	tileset TilesetHouse
+	; tileset TILESET_BATTLE_TOWER_OUTSIDE
 	tileset TilesetPlayersHouse
 	tileset TilesetPokecenter
 	tileset TilesetGate
@@ -25,12 +27,14 @@ Tilesets::
 	tileset TilesetFacility
 	tileset TilesetMart
 	tileset TilesetMansion
+	; tileset TilesetGameCorner
 	tileset TilesetEliteFourRoom
 	tileset TilesetTraditionalHouse
 	tileset TilesetTrainStation
 	tileset TilesetChampionsRoom
 	tileset TilesetLighthouse
 	tileset TilesetPlayersRoom
+	; tileset TilesetBattleTowerInside
 	tileset TilesetTower
 	tileset TilesetCave
 	tileset TilesetPark
