@@ -49,11 +49,11 @@ MapScenes::
 	scene_var MAHOGANY_TOWN,                               wMahoganyTownSceneID
 	scene_var ROUTE_42,                                    wRoute42SceneID
 	scene_var CIANWOOD_CITY,                               wCianwoodCitySceneID
-	scene_var BATTLE_TOWER_1F,                             wBattleTower1FSceneID
-	scene_var BATTLE_TOWER_BATTLE_ROOM,                    wBattleTowerBattleRoomSceneID
-	scene_var BATTLE_TOWER_ELEVATOR,                       wBattleTowerElevatorSceneID
-	scene_var BATTLE_TOWER_HALLWAY,                        wBattleTowerHallwaySceneID
-	scene_var BATTLE_TOWER_OUTSIDE,                        wBattleTowerOutsideSceneID ; unused
+	;scene_var BATTLE_TOWER_1F,                             wBattleTower1FSceneID
+	;scene_var BATTLE_TOWER_BATTLE_ROOM,                    wBattleTowerBattleRoomSceneID
+	;scene_var BATTLE_TOWER_ELEVATOR,                       wBattleTowerElevatorSceneID
+	;scene_var BATTLE_TOWER_HALLWAY,                        wBattleTowerHallwaySceneID
+	;scene_var BATTLE_TOWER_OUTSIDE,                        wBattleTowerOutsideSceneID ; unused
 	scene_var ROUTE_43_GATE,                               wRoute43GateSceneID
 	scene_var MOUNT_MOON,                                  wMountMoonSceneID
 	scene_var SPROUT_TOWER_3F,                             wSproutTower3FSceneID

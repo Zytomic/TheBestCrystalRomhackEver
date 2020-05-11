@@ -1,9 +1,10 @@
 ; Tilesets indexes (see data/tilesets.asm)
+; az: check these match with data/tilesets.asm indeed
 	const_def 1
 	const TILESET_JOHTO                ; 01
 	const TILESET_JOHTO_MODERN         ; 02
 	const TILESET_KANTO                ; 03
-	const TILESET_BATTLE_TOWER_OUTSIDE ; 04
+	; const TILESET_BATTLE_TOWER_OUTSIDE ; 04
 	const TILESET_HOUSE                ; 05
 	const TILESET_PLAYERS_HOUSE        ; 06
 	const TILESET_POKECENTER           ; 07
@@ -13,14 +14,14 @@
 	const TILESET_FACILITY             ; 0b
 	const TILESET_MART                 ; 0c
 	const TILESET_MANSION              ; 0d
-	const TILESET_GAME_CORNER          ; 0e
+	; const TILESET_GAME_CORNER          ; 0e
 	const TILESET_ELITE_FOUR_ROOM      ; 0f
 	const TILESET_TRADITIONAL_HOUSE    ; 10
 	const TILESET_TRAIN_STATION        ; 11
 	const TILESET_CHAMPIONS_ROOM       ; 12
 	const TILESET_LIGHTHOUSE           ; 13
 	const TILESET_PLAYERS_ROOM         ; 14
-	const TILESET_BATTLE_TOWER_INSIDE  ; 16
+	; const TILESET_BATTLE_TOWER_INSIDE  ; 16
 	const TILESET_TOWER                ; 17
 	const TILESET_CAVE                 ; 18
 	const TILESET_PARK                 ; 19
