@@ -392,8 +392,8 @@ PlayersHouse1F_MapEvents:
 	warp_event  9,  0, PLAYERS_HOUSE_2F, 1
 
 	db 2 ; coord events
-	coord_event  8,  4, SCENE_DEFAULT, MeetMomLeftScript
-	coord_event  9,  4, SCENE_DEFAULT, MeetMomRightScript
+	coord_event  5,  5, SCENE_DEFAULT, MeetMomLeftScript
+	coord_event  6,  5, SCENE_DEFAULT, MeetMomRightScript
 
 	db 4 ; bg events
 	bg_event  0,  1, BGEVENT_READ, StoveScript
